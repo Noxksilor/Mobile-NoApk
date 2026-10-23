@@ -1,0 +1,30 @@
+name: Publish release
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ Slowtape.apk ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Read version
+        id: v
+        run: echo "tag=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.v.outputs.tag }}
+          name: Slowtape ${{ steps.v.outputs.tag }}
+          body: |
+            Скачай **Slowtape.apk** ниже и открой на телефоне.
+            Новые версии ставятся поверх старых, плейлисты и избранное сохраняются.
+          files: Slowtape.apk
+          make_latest: true
