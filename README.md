@@ -2,7 +2,7 @@
 
 **Музыкальный плеер для Android без рекламы. Любой трек в Slowed + Reverb одной кнопкой.**
 
-### ⬇️ [Скачать Slowtape.apk](https://github.com/Noxksilor/Mobile-NoApk/releases/latest/download/Slowtape.apk)
+### ⬇️ [Скачать Slowtape.apk](https://github.com/Noxksilor/Mobile-NoApk/raw/main/Slowtape.apk)
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## Как установить
 
-1. Скачай [Slowtape.apk](https://github.com/Noxksilor/Mobile-NoApk/releases/latest/download/Slowtape.apk) на телефон.
+1. Скачай [Slowtape.apk](https://github.com/Noxksilor/Mobile-NoApk/raw/main/Slowtape.apk) на телефон.
 2. Открой файл. Если Android спросит, разреши установку из этого источника.
 3. Запусти Slowtape и разреши доступ к музыке.
 
@@ -27,4 +27,4 @@
 
 ---
 
-*English: Ad-free offline music player for Android with one-tap Slowed + Reverb and Nightcore. No internet permission, no tracking. [Download the APK](https://github.com/Noxksilor/Mobile-NoApk/releases/latest/download/Slowtape.apk).*
+*English: Ad-free offline music player for Android with one-tap Slowed + Reverb and Nightcore. No internet permission, no tracking. [Download the APK](https://github.com/Noxksilor/Mobile-NoApk/raw/main/Slowtape.apk).*
